@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Modificavel</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">NOME DA EMPRESA</a>
+
+        <ul class="navegacao">
+            <li><a href="#">Home</a></li>
+            <li><a href="teste.html" target="_blank">Iphone</a></li>
+            <li><a href="#">Samsung</a></li>
+            <li><a href="#">Xiaomi</a></li>
+            <li><a href="#">Notebook</a></li>
+            <li><a href="#">Acessórios</a></li>
+        </ul>
+        <div class="header-icons">
+            <a href="#"><i class='bx bx-cart'></i></a></li>
+            <div id="menu"><a href="./login/index.html"><i class='bx bxs-user-circle'></i></a></div>
+        </div>
+    </header>
+    <section class="carrossel">
+        <div class="carrossel_div">
+            <div id="slide">
+                <div class="item" style="background-image: url(img/teste.jpg);">
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/teste.svg);">
+                    <div class="content">
+                        <div class="name">Imagem Principal</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/aaaa.png);">
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/aaaa.png);">
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/aaaa.png);">
+                    <div class="content">
+                        <div class="name">LUNDEV</div>
+                        <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+                        <button>See more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="banner_video">
+            <div class="banner">
+                <video autoplay muted loop>
+                    <source src="img/banner.mp4" type="video/mp4">
+                </video>
+            </div>
+    </section>
+    <section class="banner_iphone">
+            <div class="home-img">
+                <img src="img/iphone_verde.png" class="one">
+            </div>
+            <div class="home-text">
+                <h1>IPHONE 15</h1>
+                <H5>Descubra a revolução tecnológica com o iPhone 15 PLUS - o auge da excelência da Apple.
+                    Desfrute da experiência de ponta com uma tela Super Retina XDR aprimorada, cores vibrantes e detalhes
+                    incríveis.
+                    Desempenho extraordinário é garantido pelo processador A15 Bionic, proporcionando velocidade e
+                    eficiência incomparáveis.</h5>
+                <h3>12X de R$ 399,98</h3>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+    
+        <div class="main">
+            <div class="row">
+                <li><img src="img/iphone_verde_p.png" onclick="slider('img/iphone_verde.png')"></li>
+            </div>
+    
+            <div class="row2">
+                <li><img src="img/iphone_rosa_p.png" onclick="slider('img/iphone_rosa.png')"></li>
+            </div>
+    
+            <div class="row3">
+                <li><img src="img/iphone_azul_p.png" onclick="slider('img/iphone_azul.png')"></li>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
