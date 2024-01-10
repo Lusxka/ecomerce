@@ -189,6 +189,7 @@
     z-index: 222222;
     text-align: center;
     width:100%;
+   
 }
 .buttons button{
     width:50px;
@@ -196,22 +197,30 @@
     border-radius: 50%;
     border:1px solid #555;
     transition: 0.5s;
+    cursor: pointer;
 }
 .buttons button:hover{
     background-color: #bac383;
 }
 
+.banner_video{
+  margin-bottom: 0;
+}
+
 .card_titulo_banner{
-  background-color: #000000;
-  margin-top: -500px;
-  margin-bottom: 500px;
-  margin-left: 10%;
+  background-color: #000000b6;
   padding: 1%;
-  border-radius: 10%;
-  position: absolute;
+  border-radius: 10px;
+  position: relative;
+  bottom: 750px;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: -3%;
 }
 
 .titulo_banner{
   color: white;
+  text-align: center;
+  font-size: 30px;
 }
 
